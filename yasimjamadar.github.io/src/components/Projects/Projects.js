@@ -56,7 +56,7 @@ function Projects() {
                 title="Myntra.com Clone"
                 tool= "Html, Css, JavaScript, Json-Server,Reactjs,Chakra-ui,Json-server"
                 description="Myntra is get best Of Influencer Approved Stylish Finds On This End Of Reason Sale On Myntra. 
-                Deals and Offers On All Myntra Categories."
+                Deals and Offers On All Myntra Categories.But work in progress"
                 link="https://github.com/Yasin051197/Myntra_Clone"
                 demoLink="https://zesty-daifuku-470069.netlify.app/"
               />
