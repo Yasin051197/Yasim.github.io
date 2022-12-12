@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Tripadvisor from "../../Assets/Projects/Tripadvisor.webp"
  import Lovoda from "../../Assets/Projects/Lovoda.jpg";
+ import Myntra from "../../Assets/Projects/Myntra.png"
 function Projects() {
   return (
     <div className="project-background activeNavlink" id="scrollProjects">
@@ -17,7 +18,7 @@ function Projects() {
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
            
-            {/* Toggle-Track Clone -------------------------------------------------------------------*/}
+            {/* Lovoda.com Clone -------------------------------------------------------------------*/}
             <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={Lovoda}
@@ -32,7 +33,7 @@ function Projects() {
             </Col>
 
 
-            {/* greenhouse Clone -------------------------------------------------------------------*/}
+            {/* Tripadvisor Clone -------------------------------------------------------------------*/}
             <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={Tripadvisor}
@@ -45,6 +46,19 @@ function Projects() {
                 perfect tour."
                 link="https://github.com/gk072745/rabid-flower-3002"
                 demoLink="https://candid-zabaione-3fa313.netlify.app/"
+              />
+            </Col>
+             {/* myntra.com Clone -------------------------------------------------------------------*/}
+             <Col md={6} className="project-card">
+              <ProjectCard
+                imgPath={Myntra}
+                isBlog={false}
+                title="Myntra.com Clone"
+                tool= "Html, Css, JavaScript, Json-Server,Reactjs,Chakra-ui,Json-server"
+                description="Myntra is get best Of Influencer Approved Stylish Finds On This End Of Reason Sale On Myntra. 
+                Deals and Offers On All Myntra Categories."
+                link="https://github.com/Yasin051197/Myntra_Clone"
+                demoLink="https://zesty-daifuku-470069.netlify.app/"
               />
             </Col>
           </Row>

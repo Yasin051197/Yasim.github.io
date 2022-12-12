@@ -45,9 +45,9 @@ function Resume() {
             </Col>
           </Row>
           <Row style={{ justifyContent: "center", position: "relative" }}>
-            <Button variant="primary" href={pdf} target="_blank">
+            <Button variant="primary" href={"https://drive.google.com/file/d/1FFouTtdWaUCz27yqQ5pA3sZcEn3zt5nJ/view?usp=sharing"} target="_blank">
               <AiOutlineDownload />
-              &nbsp;Download CV
+              &nbsp;Download CV From Google Drive
             </Button>
           </Row>
         </Container>
