@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Tripadvisor from "../../Assets/Projects/Tripadvisor.webp"
  import Lovoda from "../../Assets/Projects/Lovoda.jpg";
  import Myntra from "../../Assets/Projects/Myntra.png"
+ import Mytheresa from "../../Assets/Projects/Mytheresa.jpeg"
 function Projects() {
   return (
     <div className="project-background activeNavlink" id="scrollProjects">
@@ -59,6 +60,18 @@ function Projects() {
                 Deals and Offers On All Myntra Categories.But work in progress"
                 link="https://github.com/Yasin051197/Myntra_Clone"
                 demoLink="https://zesty-daifuku-470069.netlify.app/"
+              />
+            </Col>
+            {/* Mytheresa.com Clone -------------------------------------------------------------------*/}
+            <Col md={6} className="project-card">
+              <ProjectCard
+                imgPath={Mytheresa}
+                isBlog={false}
+                title="Mytheresa.com Clone"
+                tool= "Html, Css, JavaScript, Json-Server,Reactjs,Chakra-ui,Json-server"
+                description="Mytheresa is an online shopping destination for children's, men's, and women's luxury fashion and lifestyle design."
+                link="https://github.com/himanshudestiny/numerous-governor-3295/tree/main/project"
+                demoLink="https://candid-trifle-91550d.netlify.app/"
               />
             </Col>
           </Row>
