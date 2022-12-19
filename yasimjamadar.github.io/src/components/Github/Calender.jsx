@@ -1,26 +1,9 @@
 import React from "react";
-// import GitHubCalendar from 'react-github-calendar';
-// import { Tooltip as ReactTooltip } from 'react-tooltip'
+import Cal from "./Cal.js"
 import '../../Calender.css'
 
 export const Calendar = () => {
 
-    // const selectLastHalfYear = (contributions) => {
-    //     const currentYear = new Date().getFullYear();
-    //     const currentMonth = new Date().getMonth();
-    //     const shownMonths = 12;
-
-    //     return contributions.filter((day) => {
-    //         const date = new Date(day.date);
-    //         const monthOfDay = date.getMonth();
-
-    //         return (
-    //             date.getFullYear() === currentYear &&
-    //             monthOfDay > currentMonth - shownMonths &&
-    //             monthOfDay <= currentMonth
-    //         );
-    //     });
-    // };
 
 
     return (
@@ -29,19 +12,7 @@ export const Calendar = () => {
 
                 <div className="calendarBox">
                     <h3>GitHub Calender</h3>
-                    {/* <GitHubCalendar
-                        username="Yasin051197"
-                        color="yellow"
-                        transformData={selectLastHalfYear}
-                        hideTotalCount
-                        hideColorLegend
-                        style={{
-                            width: "100%",
-                            cursor: "pointer"
-                        }}
-                    >
-                        <ReactTooltip delayShow={20} />
-                    </GitHubCalendar> */}
+                    <Cal />
                 </div>
             </div>
             <div className="graph-1">
