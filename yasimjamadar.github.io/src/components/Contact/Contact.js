@@ -17,11 +17,12 @@ function Contact() {
   const [message, setMessage] = React.useState(false);
   return (
     <div className="contact-background activeNavlink" id="scrollContact">
-      {/* <Particle /> */}
       <Container fluid className="home-contect-section" id="about">
         <Row>
           <Col md={12} className="home-about-social">
-            <h1 style={{ fontSize: "2.3em", marginTop: "59px" }}>Connect Me <span className="purple">On </span></h1>
+            <h1 style={{ fontSize: "2.3em", marginTop: "59px" }}>
+              Connect Me <span className="purple">On </span>
+            </h1>
           </Col>
           <Col md={6} className="home-about-social">
             <ul className="home-about-social-links">
@@ -49,7 +50,7 @@ function Contact() {
                   className="link-text-css"
                   onClick={() => setModalShow(true)}
                 >
-                  yasinjamadar0511@gmail.com
+                  jamadaryasim@gmail.com
                   <span style={{ opacity: 0 }}></span>
                 </span>
               </li>
@@ -94,7 +95,7 @@ function Contact() {
                   <span style={{ opacity: 0 }}>||</span>
                 </a>
               </li>
-            
+
               <li className="social-icons-contect sixth">
                 <Message show={message} onHide={() => setMessage(false)} />
                 <span

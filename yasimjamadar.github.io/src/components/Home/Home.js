@@ -23,7 +23,7 @@ function Home() {
                 <strong className="main-name"> Yasim Jamadar</strong>
               </h6>
               <h6 className="sub-heading-name">
-                <strong>FULL STACK WEB DEVELOPER(Full-Time)</strong>
+                <strong>FULL STACK WEB DEVELOPER</strong>
               </h6>
               <h4 className="sub-heading-name">
                 From

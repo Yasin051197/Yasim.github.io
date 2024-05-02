@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import FrontEnd from "./FrontEnd";
 import Toolstack from "./Toolstack";
+import TechStacks from "./TechStacks";
 
 
 
@@ -14,7 +14,7 @@ function Skill() {
             <strong className="purple"><u>Skills</u></strong>
           </h1>
           <h1 className="project-heading"><em>Tech Stack</em></h1>
-          <FrontEnd/>
+          <TechStacks/>
 
           <h1 className="project-heading">
             <em>Tools I Use</em>
